@@ -1,4 +1,4 @@
-# Trabajo práctico gRPC
+# Trabajo práctico gRPC - Jeremías Tamargo
 
 Desde esta carpeta, instalar las dependencias con [uv](https://docs.astral.sh/uv/):
 
