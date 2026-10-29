@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service MonitoreoServidor {
+  rpc Consultar (SolicitudMonitoreo) returns (stream Reporte);
+}
+
+message SolicitudMonitoreo {
+}
+
+message Reporte {
+  double cpu_porcentaje = 1;
+  double ram_disponible_mb = 2;
+  double disco_disponible_gb = 3;
+}

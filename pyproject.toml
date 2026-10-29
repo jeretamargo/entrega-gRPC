@@ -1,0 +1,9 @@
+[project]
+name = "entrega-grpc"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "grpcio>=1.85.0",
+    "grpcio-tools>=1.85.0",
+    "psutil>=7.2.2",
+]
